@@ -38,9 +38,9 @@ Using the API defined above create some file system topology that contains at le
 
 IMPORTANT:
 The assignment should be done step by step:
-	1) Create a prototype of the system (this is just signatures of 	functions without implementation. It is not possible to create tests if you don’t do this step. But this is not full implementation)
-	2) Create Tests (PyTest or Robot)
-	3) Provide implementation
-	4) Bugfixes
+1)	Create a prototype of the system (this is just signatures of 	functions without implementation. It is not possible to create tests if you don’t do this step. But this is not full implementation)
+2)	Create Tests (PyTest or Robot)
+3)	Provide implementation
+4)	Bugfixes
 
 So, there should be at least 4 commits.
