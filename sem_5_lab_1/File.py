@@ -1,6 +1,10 @@
-class File:
-    def __init__(self, path, info):
-        pass
+from abc import ABC
 
-    def read_file(self):
-        pass
+
+class File(ABC):
+    def __init__(self, info):
+        self.__info = info
+
+    @property
+    def info(self):
+        return self.__info
